@@ -54,11 +54,3 @@ ComplexInteger::~ComplexInteger()
     Real = 0;
     Imaginary = 0;
 }
-
-//Node.h
-class Node
-{
-public:
-    ComplexInteger data;
-    Node *next;
-};
